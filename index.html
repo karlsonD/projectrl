@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For You</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<audio id="bg-music" src="audio/song.ogg" loop></audio>
+  <div class="collage">
+    <div class="tile"></div><div class="tile"></div><div class="tile"></div><div class="tile"></div>
+    <div class="tile"></div><div class="tile"></div><div class="tile"></div><div class="tile"></div>
+    <div class="tile"></div><div class="tile"></div><div class="tile"></div><div class="tile"></div>
+  </div>
+  <div class="wash"></div>
+
+  
+
+  <div class="stage">
+
+    <div class="envelope" id="envelope">
+      <p class="landing-eyebrow">A Little Something For</p>
+      <h1 class="landing-name">My Everything</h1>
+
+      <div class="envelope-graphic">
+        <div class="env-body"></div>
+        <div class="env-flap"></div>
+        <div class="seal">&hearts;</div>
+      </div>
+
+      <p class="tap-hint">Tap to open</p>
+    </div>
+
+    <!-- Step 2: confirmation -->
+    <div class="confirm" id="confirm">
+      <p class="confirm-text">Sure ka na?<br>Walang iyakan, Richzel Lou! </p>
+      <div class="confirm-buttons">
+        <button id="confirm-yes">READY NA!</button>
+        <button id="confirm-no">Ayoko pa, Baka maiyak ako HUHU</button>
+      </div>
+    </div>
+
+        <!-- Step 3: the letter -->
+    <div class="letter" id="index">
+      <button class="back-btn" id="back-btn" aria-label="Back">
+        <span>&larr;</span>
+      </button>
+
+      <div class="eyebrow">A Letter For You</div>
+      <div class="heading">Happy Birthday, My Love</div>
+      <div class="body-text">
+        <p>You know, it was around November when I first started thinking about you. Then January came — I tried to approach you through my wingman, but of all things, he accidentally talked to your friend Annika instead of you. It's still crazy to think about even now, because back then, I thought I'd lost my chance completely. But I still found your Instagram and followed you, siguro hindi lang ako yun haha! Then one day, you posted a close friends story, and somehow I was included — so I made the first move right then. I haven't stopped falling for you since.</p>
+        <p>I love everything about you — your smile, the face you make when you get ragebaited, especially when you're hungry (so cute but nakakatakot HA HA HA), how you're always ride-or-die, and how much you love sumo niku. This might be the part where you start crying. You know, it makes me so genuinely happy every time I joke around with you and you always laugh, like you never get tired of my jokes.</p>
+        <p>I promise I'll keep doing my best to give you a happy, loving relationship. Just wait for our PCX — we'll go on rides soon, have more food trips, explore all the places we've always wanted to visit, and make so many more memories together. I hope you never get tired of me, my jokes, our random moments, or even the waiting — especially knowing the situation I'm in right now. I may not be able to give you everything yet, but I haven't lost hope, and I'm still working toward the life we always talk about. There's so much more waiting for us, and I truly believe that one day, we'll get to live out everything we've been dreaming of — together.</p>
+       <p class="final-line">I love you, and I'm so glad it was you.</p>
+      </div>
+
+      <div class="signoff">
+        Always yours,
+        <span>Arvy Karlson</span>
+      </div>
+
+      <div class="ribbon">
+        <p class="ps-note">P.S. — you know I'm not really good with words, so I had a little help from AI putting some of these into sentences. But every memory, every feeling, every promise here is 100% mine and only for you.</p>
+      </div>
+
+      <button class="next-btn" id="next-to-video">Next &rarr;</button>
+    </div>
+
+       <!-- Step 4: outro video -->
+    <div class="video-page" id="video-page">
+      <button class="back-btn" id="video-back-btn" aria-label="Back" style="position:absolute; top:1.2rem; left:1.2rem; z-index:5;">
+        <span>&larr;</span>
+      </button>
+      <div class="video-wrapper">
+        <video id="outro-video" src="video/main.mp4" playsinline muted autoplay></video>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="particles" id="particles"></div>
+
+  <button id="mute-btn" class="back-btn" style="position:fixed; bottom:1.2rem; right:1.2rem; top:auto; left:auto; z-index:10;">
+    <span>&#128266;</span>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
+    
+
+
+
