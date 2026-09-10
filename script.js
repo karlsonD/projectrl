@@ -76,7 +76,7 @@ setInterval(createParticle, 400);
 
 function startLetterTimer(){
   clearTimeout(letterTimer);
-  letterTimer = setTimeout(goToVideo, 120000); // 2 minutes
+  letterTimer = setTimeout(goToVideo, 130000); // 3 minutes
 }
 
 function cancelLetterTimer(){
